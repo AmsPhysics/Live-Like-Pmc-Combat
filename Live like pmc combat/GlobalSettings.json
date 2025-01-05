@@ -1,12 +1,12 @@
 {
   "Difficulty": {
-    "VisibleDistCoef": 1.0,
-    "GainSightCoef": 1.0,
-    "ScatteringCoef": 1.0,
+    "VisibleDistCoef": 1.2,
+    "GainSightCoef": 0.8,
+    "ScatteringCoef": 0.8,
     "HearingDistanceCoef": 1.0,
     "AggressionCoef": 1.0,
-    "PrecisionSpeedCoef": 1.0,
-    "AccuracySpeedCoef": 1.0
+    "PrecisionSpeedCoef": 0.8,
+    "AccuracySpeedCoef": 0.8
   },
   "General": {
     "BotsUseGrenades": true,
@@ -147,7 +147,7 @@
       "DAMAGE_MIN_MOD": 0.2,
       "DAMAGE_MAX_MOD": 3.0
     },
-    "AimCenterMassGlobal": true,
+    "AimCenterMassGlobal": false,
     "EnemyVelocityMaxBuff": 1.2,
     "EnemyVelocityMaxDebuff": 0.8,
     "EnemySprintingScatterMulti": 0.66,
@@ -169,7 +169,7 @@
     "FasterCQBReactionsGlobal": true,
     "AimDownSightsAimTimeMultiplier": 0.8,
     "PMCSAimForHead": true,
-    "PMCAimForHeadChance": 12.0
+    "PMCAimForHeadChance": 75.0
   },
   "Hearing": {
     "RAIN_SOUND_COEF_OUTSIDE": 0.5,
@@ -486,7 +486,7 @@
   "Mind": {
     "ENEMYSNIPER_ALWAYS_SPRINT_COVER": true,
     "ENEMYSNIPER_ALWAYS_SPRINT_SEARCH": true,
-    "ENEMYSNIPER_DISTANCE": 85.0,
+    "ENEMYSNIPER_DISTANCE": 100.0,
     "ENEMYSNIPER_DISTANCE_END": 75.0,
     "ForcePersonality": {
       "Wreckless": false,
@@ -560,8 +560,8 @@
         "HearingDistCoef": 0.25
       }
     },
-    "SUPP_AMOUNT_MULTI": 1.0,
-    "SUPP_STRENGTH_MULTI": 1.0,
+    "SUPP_AMOUNT_MULTI": 0.7,
+    "SUPP_STRENGTH_MULTI": 0.7,
     "SUP_DECAY_AMOUNT": 0.25,
     "SUP_DECAY_FREQ": 0.25,
     "SUP_CHECK_FREQ": 0.5,
@@ -635,7 +635,7 @@
   },
   "Shoot": {
     "ONLY_SEMIAUTO_TOGGLE": false,
-    "RecoilMultiplier": 1.0,
+    "RecoilMultiplier": 0.8,
     "AddRecoil": 5.0,
     "RECOIL_DECAY_COEF": 0.2,
     "RECOIL_BASELINE": 100.0,

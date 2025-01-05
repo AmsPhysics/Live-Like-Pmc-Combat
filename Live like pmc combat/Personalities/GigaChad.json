@@ -4,7 +4,7 @@
   "Assignment": {
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 3.0,
+    "RandomlyAssignedChance": 8.0,
     "MinLevel": 0.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 250.0,
@@ -22,7 +22,7 @@
     "General": {
       "AggressionMultiplier": 1.0,
       "KickOpenAllDoors": true,
-      "HoldGroundBaseTime": 1.25,
+      "HoldGroundBaseTime": 1.2,
       "HoldGroundMinRandom": 0.65,
       "HoldGroundMaxRandom": 1.5,
       "SuppressionResistance": 0.0
